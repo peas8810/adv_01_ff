@@ -15,7 +15,7 @@ st.set_page_config(page_title="Sistema Jurídico", layout="wide")
 load_dotenv()
 
 # Configuração da API DeepSeek e do Google Apps Script
-GAS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzx0HbjObfhgU4lqVFBI05neopT-rb5tqlGbJU19EguKq8LmmtzkTPtZjnMgCNmz8OtLw/exec"
+GAS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbyu3emYaCGrWcYB5fNqmZ2b6EjvwJEiq6tB3rGqQupgyNv66Kw2ki-rgpGSHBjURRaioQ/exec"
 
 # -------------------- Usuários Persistidos --------------------
 if "USERS" not in st.session_state:
